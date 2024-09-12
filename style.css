@@ -42,9 +42,9 @@
 .header input:focus-visible{
     outline: none;
 }
-.main{
+
+body{
     background-color: #ecd4d4;
-    min-height: 100vh;
 }
 
 .content{
