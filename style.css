@@ -26,6 +26,7 @@
     font-size: 20px;
     color: white;
     padding: 10px;
+    border-style: none;
     border-radius: 10px;
     transition: box-shadow 0.1s ease;
 }
@@ -38,9 +39,12 @@
     box-shadow: black 0px 0px 20px 10px;
 }
 
+.header input:focus-visible{
+    outline: none;
+}
 .main{
     background-color: #ecd4d4;
-    
+    min-height: 100vh;
 }
 
 .content{
